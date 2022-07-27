@@ -1,0 +1,33 @@
+_id: req_d448f517fb164e989fb6fcabd3ef8fe9
+type: Request
+parentId: wrk_eda097a80913456588680f1459100ebd
+modified: 1658929585707
+created: 1656964876923
+url: https://deva365.xyz/api/users/
+name: create user
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "username": "testPlayer",
+      "password": "12345678",
+      "currency": "EUR",
+      "role": "P",
+      "language": "en-US"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4aab63436be845fc9d287017e9428998
+authentication: {}
+metaSortKey: -1656964876923
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

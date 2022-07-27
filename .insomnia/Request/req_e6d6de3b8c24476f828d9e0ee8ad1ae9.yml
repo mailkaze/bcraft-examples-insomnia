@@ -1,0 +1,32 @@
+_id: req_e6d6de3b8c24476f828d9e0ee8ad1ae9
+type: Request
+parentId: wrk_eda097a80913456588680f1459100ebd
+modified: 1656968270004
+created: 1656966384605
+url: https://deva365.xyz/api/backoffice/limits/change/
+name: change limits
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "max_bet": "999",
+      "min_bet": "999",
+      "max_win": "999",
+      "max_transaction": "999"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ae513667e3d84a65b04da0a9f4640d88
+authentication: {}
+metaSortKey: -1656966384605
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

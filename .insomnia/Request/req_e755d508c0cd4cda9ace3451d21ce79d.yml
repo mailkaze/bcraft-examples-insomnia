@@ -1,0 +1,32 @@
+_id: req_e755d508c0cd4cda9ace3451d21ce79d
+type: Request
+parentId: wrk_eda097a80913456588680f1459100ebd
+modified: 1656968271626
+created: 1656966196630
+url: https://deva365.xyz/api/backoffice/transactions/
+name: do transaction
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "currency": "EUR",
+      "amount": 1,
+      "sender_id": 5,
+      "recipient_id": 6
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a9182090333c43f5ae8dfdfb1edf18c2
+authentication: {}
+metaSortKey: -1656966196630
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

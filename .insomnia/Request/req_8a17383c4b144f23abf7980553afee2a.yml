@@ -1,0 +1,29 @@
+_id: req_8a17383c4b144f23abf7980553afee2a
+type: Request
+parentId: wrk_eda097a80913456588680f1459100ebd
+modified: 1658929759668
+created: 1658929641884
+url: https://deva365.xyz/api/users/9/change-parent/
+name: change parent
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"parent_id": 3
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_25f4009c157042cbb7f6625b2bfaca91
+authentication: {}
+metaSortKey: -1658929641884
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

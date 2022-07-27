@@ -1,0 +1,21 @@
+_id: req_7660db31fb9b406b99ef1e5a7c15207b
+type: Request
+parentId: wrk_eda097a80913456588680f1459100ebd
+modified: 1656966351829
+created: 1656966326957
+url: https://deva365.xyz/api/backoffice/limits/show/
+name: see limits
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1656966326957
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

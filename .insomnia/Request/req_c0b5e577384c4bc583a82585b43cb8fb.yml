@@ -1,0 +1,31 @@
+_id: req_c0b5e577384c4bc583a82585b43cb8fb
+type: Request
+parentId: wrk_eda097a80913456588680f1459100ebd
+modified: 1658929596272
+created: 1656963441564
+url: https://deva365.xyz/api/accounts/login/
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "username": "testowner",
+        "email": "",
+        "password": "testowner"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9628adff305045aaa31929aa30b64387
+authentication: {}
+metaSortKey: -1656963441564
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
